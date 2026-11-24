@@ -1,0 +1,13 @@
+{
+  "name": "staff-traitors",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A staff-only Traitors style social deduction game for a public high school. No student data, free tools only.",
+  "type": "module",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings --test test/*.test.js",
+    "simulate": "node --no-warnings scripts/simulate.js"
+  }
+}
